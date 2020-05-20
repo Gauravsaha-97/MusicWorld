@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundimage"
+    tools:context="com.example.android.musicworld.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!!"
+        android:textAllCaps="true"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#ffff99"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Language"
+        android:layout_marginTop="60dp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp"
+        android:textColor="#ffff99"
+        android:fontFamily="cursive"/>
+    <Button
+        android:id="@+id/hindi"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp"
+        android:text="Hindi"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:background="#ccffdd"
+        />
+    <Button
+        android:id="@+id/english"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="English"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:background="#ffffb3"
+        />
+
+</LinearLayout>
